@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
-import logon from '../../assets/logon.svg';
+import logo from '../../assets/logo.svg';
 
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="newone__navbar">
       <div className="newone__navbar-links">
         <div className="newone__navbar-links_logo">
-          <img src={logon} alt="logo"/>
+          <img src={logo} alt="logo"/>
         </div>
         <div className="newone__navbar-links_container">
           <p><a href="#home">Home</a></p>
