@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Footer, Blog, Features, Newone, Header, Possibility } from './containers/';
+import { Footer, Blog, Possibility, Features, Newone, Header, } from './containers/';
 import { CTA, Brand, Navbar } from './components';
 import './App.css';
 
@@ -23,4 +23,4 @@ const App = () => {
     )
 }
 
-export default App
+export default App;
